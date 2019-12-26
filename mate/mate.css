@@ -1,0 +1,29 @@
+/*img{
+    min-height: 100%;
+} para evitar la deformacion de la imagen */
+
+.cabecera-mate{
+    text-align: center;
+} /*sirve para centrar el texto al medio*/
+
+.contenedor-tipos-mates{
+    display: flex;
+} /*sirve para avisar que el contenedor va a tener flex*/
+
+.tipo-mate{
+    margin: 25px;
+}/*si pongo solo un num me lo toma como general para los cuatro lados, los num van como un reloj 
+si pongo dos num me lo toma el primero arriba y abajo el segundo izq y der. (se separan con espacios)*/
+
+.tipo-mate-titulo{
+    display: flex;
+}
+
+.tipo-mate-titulo>img{
+    margin-right: 10px;
+} /*se coloca para poner margen a la der*/
+
+.tipo-mate-texto{
+    margin-left: 20px;/*margin va primero por fuera de la caja*/
+    padding-left: 12.5px;/*padding va segundo por dentro de la caja*/
+} /*se coloca para poner el margen a la izq*/
