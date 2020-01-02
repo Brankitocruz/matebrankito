@@ -12,8 +12,10 @@
 
 .tipo-mate{
     margin: 25px;
+    width: 50%;  
 }/*si pongo solo un num me lo toma como general para los cuatro lados, los num van como un reloj 
-si pongo dos num me lo toma el primero arriba y abajo el segundo izq y der. (se separan con espacios)*/
+si pongo dos num me lo toma el primero arriba y abajo el segundo izq y der. (se separan con espacios)
+el width: 50% es para que tome la parte de la pagina para todos*/
 
 .tipo-mate-titulo{
     display: flex;
@@ -27,3 +29,4 @@ si pongo dos num me lo toma el primero arriba y abajo el segundo izq y der. (se 
     margin-left: 20px;/*margin va primero por fuera de la caja*/
     padding-left: 12.5px;/*padding va segundo por dentro de la caja*/
 } /*se coloca para poner el margen a la izq*/
+
